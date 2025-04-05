@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="LaunchBallPanel" src="project://database/Assets/UI/Components/LaunchBallPanel.uxml?fileID=9197481963319205126&amp;guid=4cb9174ab29b86141b9b49a394cffea3&amp;type=3#LaunchBallPanel" />
+    <Style src="project://database/Assets/GameplayUI.uss?fileID=7433441132597879392&amp;guid=a620421bad41fcd47a646968fe3234eb&amp;type=3#GameplayUI" />
+    <ui:VisualElement name="Header" class="header-container" />
+    <ui:VisualElement name="Body" class="body-container" style="padding-bottom: 64px; padding-top: 128px; padding-left: 4px; padding-right: 4px;">
+        <ui:VisualElement style="flex-grow: 1;" />
+        <ui:Instance template="LaunchBallPanel" style="height: auto; width: 60px;" />
+    </ui:VisualElement>
+</ui:UXML>

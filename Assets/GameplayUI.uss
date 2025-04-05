@@ -1,0 +1,10 @@
+.header-container {
+    flex-grow: 1;
+    max-height: 64px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.body-container {
+    flex-grow: 1;
+    flex-direction: row;
+}

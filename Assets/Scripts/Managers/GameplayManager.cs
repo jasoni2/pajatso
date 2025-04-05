@@ -186,4 +186,9 @@ public class GameplayManager : MonoBehaviour
         m_ballInstance.MakeInactive();
         m_ballInstance.transform.position = ballStart.position;
     }
+
+    public GameplayState GetGameplayState()
+    {
+        return m_gameplayState;
+    }
 }

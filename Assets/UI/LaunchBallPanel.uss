@@ -1,0 +1,32 @@
+.container {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.force-bar-container {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+
+.force-bar {
+    flex-grow: initial;
+    flex-basis: auto;
+    background-color: rgb(29, 171, 19);
+    max-width: none;
+    max-height: 100%;
+    height: 118px;
+    flex-shrink: initial;
+    min-height: 0%;
+    flex-direction: column-reverse;
+    align-items: auto;
+    align-self: stretch;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.launch-bar {
+}

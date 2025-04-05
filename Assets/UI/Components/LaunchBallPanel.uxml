@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/LaunchBallPanel.uss?fileID=7433441132597879392&amp;guid=c5b89b808d5ecfe4aa5d59e6c1e03396&amp;type=3#LaunchBallPanel" />
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="ForceAmountContainer" class="force-bar-container">
+            <ui:VisualElement name="ForceAmount" class="force-bar" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Launch" name="LaunchButton" class="launch-bar" />
+</ui:UXML>

@@ -11,15 +11,14 @@
 - We should add some sort of collision tracker. We'll need this for scores and etc. anyway.
     - Perhaps we can have a scriptable object for this? and we push each collision in there, so we can debug visualise it as well as count them properly.
 
-## Input
+## Core
 
 - Input needs to be handled properly using Input Actions, not hardcoded to the old API's
-
-## Game state
-
 - Implement scriptable objects for tracking game state
 - Implement scoring
 - Figure out gameplay loop flow when score is introduced
+- Implement game event dispatcher for better communication between things
+    - Alternatively, diff elements (UI) completely stateless but disabled/enabled by an element manager that listens to game events??
 
 ## Levels
 
