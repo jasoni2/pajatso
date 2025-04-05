@@ -32,8 +32,6 @@ public class GameplayManager : MonoBehaviour
     public Transform ballResetPlane;
 
     [Header("Prefabs")]
-    // TODO: Should be a prefab, which we instantiate.
-    // TODO: Also needs its own class so we can have things tweak settings on it
     public BallEntity ballPrefab;
 
     private GameplayState m_gameplayState = GameplayState.Idling;

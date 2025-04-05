@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 145474032}
   - component: {fileID: 145474035}
   m_Layer: 0
-  m_Name: Bottom Trigger (Replace with constant "min y value")
+  m_Name: BottomTriggerPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
